@@ -1,0 +1,29 @@
+{
+  "name": "workstation",
+  "version": "0.0.1",
+  "description": "getting used to JavaScript",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UNTI-UNTI-GENERATION/workstation.git"
+  },
+  "keywords": [
+    "js",
+    "node",
+    "express",
+    "vue",
+    "postgresql"
+  ],
+  "author": "Yuki Nishii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UNTI-UNTI-GENERATION/workstation/issues"
+  },
+  "homepage": "https://github.com/UNTI-UNTI-GENERATION/workstation#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "pg": "^8.0.3",
+    "vue": "^2.6.11"
+  }
+}
