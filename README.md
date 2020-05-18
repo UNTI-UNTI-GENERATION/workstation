@@ -14,6 +14,8 @@
 ## Requires
 - docker-compose@1.24.1
 ## Steps
-> git clone https://github.com/UNTI-UNTI-GENERATION/workstation.git
-> cd workstation/test
-> docker-compose up -d
+```
+git clone https://github.com/UNTI-UNTI-GENERATION/workstation.git
+cd workstation/test
+docker-compose up -d
+```
