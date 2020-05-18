@@ -1,11 +1,12 @@
 const express = require('express');
 const     app = express();
-const    port = process.env.NODEJS_INNER_PORT || '80'
+const    PORT = 80;
+const    HOST = '0.0.0.0';
 
 app.get('/', function (req, res) {
-    console.log(port);
+    console.log(PORT);
     res.send('Hello World!');
 });
 
-app.listen(port, function () {
-});
+app.listen(PORT, HOST);
+console.log(`Running on http://${HOST}:${PORT}`);
