@@ -7,6 +7,7 @@ services:
         env_file: .env
         volumes:
             - ../src/:/src
+            - ../package.json/:/src/package.json
         working_dir: /src
         tty: true
         command: bash -c 'npm install --save && node main.js'
