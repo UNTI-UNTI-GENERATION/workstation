@@ -4,7 +4,6 @@ const    PORT = 80;
 const    HOST = '0.0.0.0';
 
 app.get('/', function (req, res) {
-    console.log(PORT);
     res.send('Hello World!');
 });
 
